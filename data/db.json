@@ -1,0 +1,330 @@
+{
+  "settings": {
+    "brandName": "TechNova",
+    "platform": "LinkedIn",
+    "audience": "Developers",
+    "tone": "Technical + Friendly",
+    "preferredContent": [
+      "Tutorials",
+      "Practical Tips",
+      "Educational"
+    ],
+    "aiModel": "Groq (simulated)",
+    "memoryEngine": "Hindsight"
+  },
+  "posts": [
+    {
+      "id": "p1",
+      "title": "Java Performance Tips",
+      "topic": "Java",
+      "type": "Tutorial",
+      "date": "2026-09-15",
+      "time": "11:00 AM",
+      "likes": 2400,
+      "comments": 180,
+      "shares": 320,
+      "engagement": 3100
+    },
+    {
+      "id": "p2",
+      "title": "AI Tutorial: Getting Started",
+      "topic": "AI",
+      "type": "Tutorial",
+      "date": "2026-09-14",
+      "time": "10:00 AM",
+      "likes": 2800,
+      "comments": 220,
+      "shares": 400,
+      "engagement": 3420
+    },
+    {
+      "id": "p3",
+      "title": "React Tips & Tricks",
+      "topic": "React",
+      "type": "Carousel",
+      "date": "2026-09-13",
+      "time": "11:00 AM",
+      "likes": 2100,
+      "comments": 150,
+      "shares": 270,
+      "engagement": 2520
+    },
+    {
+      "id": "p4",
+      "title": "Product Promotion",
+      "topic": "Product",
+      "type": "Promotion",
+      "date": "2026-09-12",
+      "time": "2:00 PM",
+      "likes": 500,
+      "comments": 40,
+      "shares": 30,
+      "engagement": 570
+    },
+    {
+      "id": "p5",
+      "title": "DSA Tutorial: Big-O Basics",
+      "topic": "DSA",
+      "type": "Tutorial",
+      "date": "2026-09-11",
+      "time": "12:00 PM",
+      "likes": 1900,
+      "comments": 140,
+      "shares": 210,
+      "engagement": 2250
+    },
+    {
+      "id": "p6",
+      "title": "5 Java Collections You Misuse",
+      "topic": "Java",
+      "type": "Carousel",
+      "date": "2026-09-08",
+      "time": "11:00 AM",
+      "likes": 2600,
+      "comments": 200,
+      "shares": 340,
+      "engagement": 3140
+    },
+    {
+      "id": "p7",
+      "title": "AI Agents Explained Simply",
+      "topic": "AI",
+      "type": "Question",
+      "date": "2026-09-06",
+      "time": "10:00 AM",
+      "likes": 1800,
+      "comments": 260,
+      "shares": 180,
+      "engagement": 2240
+    },
+    {
+      "id": "p8",
+      "title": "React Hooks Deep Dive",
+      "topic": "React",
+      "type": "Tutorial",
+      "date": "2026-09-04",
+      "time": "11:00 AM",
+      "likes": 1700,
+      "comments": 130,
+      "shares": 150,
+      "engagement": 1980
+    },
+    {
+      "id": "p9",
+      "title": "Announcing Our New Course",
+      "topic": "Product",
+      "type": "Announcement",
+      "date": "2026-09-02",
+      "time": "4:00 PM",
+      "likes": 400,
+      "comments": 20,
+      "shares": 15,
+      "engagement": 435
+    },
+    {
+      "id": "p10",
+      "title": "Java Exception Handling Done Right",
+      "topic": "Java",
+      "type": "Tutorial",
+      "date": "2026-08-30",
+      "time": "11:00 AM",
+      "likes": 2500,
+      "comments": 190,
+      "shares": 300,
+      "engagement": 2990
+    },
+    {
+      "id": "p11",
+      "title": "DSA: Linked Lists in 5 Minutes",
+      "topic": "DSA",
+      "type": "Carousel",
+      "date": "2026-08-28",
+      "time": "12:00 PM",
+      "likes": 1600,
+      "comments": 110,
+      "shares": 140,
+      "engagement": 1850
+    },
+    {
+      "id": "p12",
+      "title": "Why We Rebuilt Our Pricing Page",
+      "topic": "Product",
+      "type": "Promotion",
+      "date": "2026-08-26",
+      "time": "2:00 PM",
+      "likes": 350,
+      "comments": 25,
+      "shares": 10,
+      "engagement": 385
+    }
+  ],
+  "conversations": [
+    {
+      "id": "c1",
+      "text": "Can you make more Java tutorials?",
+      "sentiment": "positive",
+      "topic": "Java",
+      "detected": "Interest: Java tutorials",
+      "date": "2026-09-16"
+    },
+    {
+      "id": "c2",
+      "text": "Too many promotional posts recently.",
+      "sentiment": "negative",
+      "topic": "Product",
+      "detected": "Feedback: reduce promotional content",
+      "date": "2026-09-13"
+    },
+    {
+      "id": "c3",
+      "text": "Please explain React hooks.",
+      "sentiment": "positive",
+      "topic": "React",
+      "detected": "Interest: React tutorials",
+      "date": "2026-09-05"
+    },
+    {
+      "id": "c4",
+      "text": "Loved the Java collections carousel, more like this!",
+      "sentiment": "positive",
+      "topic": "Java",
+      "detected": "Interest: Java carousels",
+      "date": "2026-09-09"
+    },
+    {
+      "id": "c5",
+      "text": "The DSA post was too basic for me.",
+      "sentiment": "negative",
+      "topic": "DSA",
+      "detected": "Feedback: increase DSA difficulty",
+      "date": "2026-08-29"
+    },
+    {
+      "id": "c6",
+      "text": "More AI agent content please, this is the future.",
+      "sentiment": "positive",
+      "topic": "AI",
+      "detected": "Interest: AI agents",
+      "date": "2026-09-07"
+    }
+  ],
+  "memories": [
+    {
+      "id": "m1",
+      "type": "content",
+      "text": "Java tutorials consistently perform strongly. Best posting time: around 11 AM.",
+      "source": "8 previous Java posts",
+      "topic": "Java",
+      "createdAt": "2026-09-16"
+    },
+    {
+      "id": "m2",
+      "type": "audience",
+      "text": "Audience frequently requests Java and AI tutorials over promotional content.",
+      "source": "6 conversations analyzed",
+      "topic": "Java",
+      "createdAt": "2026-09-16"
+    },
+    {
+      "id": "m3",
+      "type": "conversation",
+      "text": "Audience prefers educational content over promotional posts.",
+      "source": "conversation sentiment trend",
+      "topic": "Product",
+      "createdAt": "2026-09-13"
+    },
+    {
+      "id": "m4",
+      "type": "content",
+      "text": "Carousel format outperforms single-image posts for technical topics.",
+      "source": "4 carousel posts",
+      "topic": "Java",
+      "createdAt": "2026-09-09"
+    },
+    {
+      "id": "m5",
+      "type": "audience",
+      "text": "DSA audience segment wants more advanced difficulty.",
+      "source": "1 conversation",
+      "topic": "DSA",
+      "createdAt": "2026-08-29"
+    },
+    {
+      "id": "m6",
+      "type": "content",
+      "text": "AI topic posts perform best around 10 AM.",
+      "source": "2 previous AI posts",
+      "topic": "AI",
+      "createdAt": "2026-09-14"
+    }
+  ],
+  "recommendations": [
+    {
+      "id": "r1",
+      "date": "2026-09-24",
+      "topic": "AI",
+      "format": "Carousel",
+      "time": "10:00 AM",
+      "tone": "Technical + Friendly",
+      "result": 3200,
+      "status": "published"
+    },
+    {
+      "id": "r2",
+      "date": "2026-09-21",
+      "topic": "React",
+      "format": "Tutorial",
+      "time": "11:00 AM",
+      "tone": "Technical + Friendly",
+      "result": 2400,
+      "status": "published"
+    },
+    {
+      "id": "r3",
+      "date": "2026-09-18",
+      "topic": "Product",
+      "format": "Promotion",
+      "time": "2:00 PM",
+      "tone": "Direct",
+      "result": 600,
+      "status": "published"
+    },
+    {
+      "id": "r_x1gcydk",
+      "date": "2026-09-27",
+      "topic": "Java",
+      "format": "Carousel",
+      "time": "11:00 AM",
+      "tone": "Technical + Friendly",
+      "status": "pending",
+      "result": null
+    }
+  ],
+  "planner": {
+    "Mon": {
+      "topic": "Java",
+      "format": "Tutorial",
+      "time": "11:00 AM"
+    },
+    "Tue": {
+      "topic": "AI",
+      "format": "Tutorial",
+      "time": "10:00 AM"
+    },
+    "Wed": {
+      "topic": "React",
+      "format": "Carousel",
+      "time": "11:00 AM"
+    },
+    "Thu": {
+      "topic": "DSA",
+      "format": "Tutorial",
+      "time": "12:00 PM"
+    },
+    "Fri": {
+      "topic": "Java",
+      "format": "Question",
+      "time": "11:00 AM"
+    }
+  }
+}

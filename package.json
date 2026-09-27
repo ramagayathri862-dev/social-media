@@ -1,0 +1,15 @@
+{
+  "name": "socialmind-ai",
+  "version": "1.0.0",
+  "description": "SocialMind AI - a social media engagement agent with persistent Hindsight memory (demo build)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}
